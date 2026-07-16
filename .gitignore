@@ -9,6 +9,10 @@ results_server/
 userdata
 wandb/
 
+# Trained model checkpoints (portfolio rolling-backtest models live in results/)
+*.pt
+*.pth
+
 
 # Large files or folders
 path_generation/

@@ -1,0 +1,22 @@
+TC-VAE Scenario Generation
+Copyright 2026 Isaic Cruse
+
+This repository is a derivative work built on Time-Causal VAE:
+    https://github.com/justinhou95/TimeCausalVAE
+    Paper: "Time-Causal VAE: Robust Financial Time Series Generator",
+           arXiv:2411.02947
+which is distributed under the Apache License, Version 2.0.
+
+The upstream Time-Causal VAE source is INCLUDED UNMODIFIED, specifically:
+    src/tsvae/            (the Time-Causal VAE package)
+    src/evaluations/      (upstream evaluation suite)
+    src/experiments/      (upstream experiment utilities)
+    configs/, notebooks/ example decks, and trained_models/ shipped upstream
+
+New original work added in this repository, and likewise licensed under the
+Apache License, Version 2.0, is:
+    portfolio_scenarios/                       scenario-tree generation layer
+    notebooks/rolling_backtest_train.ipynb     rolling-window training pipeline
+
+The added layer turns the Time-Causal VAE into a scenario-tree generator for a
+two-stage stochastic portfolio optimizer; it does not modify any upstream file.

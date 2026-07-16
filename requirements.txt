@@ -1,0 +1,22 @@
+# Dependencies for the portfolio scenario-generation layer (portfolio_scenarios/)
+# and the upstream tsvae package it builds on.
+#
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# For an NVIDIA GPU under WSL2, install the CUDA build of torch instead:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+
+torch
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+networkx
+pyyaml
+tqdm
+yfinance          # backtest price download in the training notebook
+arch              # GARCH fits (vine scenario exporter)
+pyvinecopulib     # R-vine copula sampling
+cvxpy             # LP moment matching
