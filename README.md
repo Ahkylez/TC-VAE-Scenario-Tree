@@ -108,7 +108,7 @@ The base model is **Time-Causal VAE**, included here unmodified:
 
 - Repository: <https://github.com/justinhou95/TimeCausalVAE>
 - Paper: *Time-Causal VAE: Robust Financial Time Series Generator*,
-  [arXiv:2411.02947](https://arxiv.org/abs/2411.02947)
+  [https://epubs.siam.org/doi/abs/10.1137/24M1711650](https://epubs.siam.org/doi/abs/10.1137/24M1711650)
 
 The upstream package (`src/tsvae/`), its evaluation suite (`src/evaluations/`),
 example notebooks, configs, and shipped `trained_models/` come from that project.
